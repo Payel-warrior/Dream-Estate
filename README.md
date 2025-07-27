@@ -1,7 +1,9 @@
-🏡 Dream-Estate
+🏡 Dream-Estate:
+
 A responsive real estate web application built using React.js and Tailwind CSS.
 
 🔵Overview:
+
 Dream-Estate is a modern UI project that showcases property listings with clean design and seamless user experience across devices. This project aims to provide a smooth navigation interface, reusable components, and efficient asset handling.
 
 🛠Tech Stack:
