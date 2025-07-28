@@ -14,6 +14,8 @@ import sidebar1 from './sidebar1.ico';
 import sidebar2 from './sidebar2.ico';
 import sidebar3 from './sidebar3.ico';
 import sidebar4 from './sidebar4.ico';
+import couple1 from './couple1.jpg';
+import apartment_icon from './apartment_icon.svg';
 
 export const assets = {
     House1,
@@ -31,8 +33,9 @@ export const assets = {
     sidebar1,
     sidebar2,
     sidebar3,
-    sidebar4
-
+    sidebar4,
+    couple1,
+    apartment_icon
 }
 
 export const projectsData = [
