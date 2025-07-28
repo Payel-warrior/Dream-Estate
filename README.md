@@ -23,6 +23,12 @@ Progress:
 
 ✅ Header Component: Developed the Header and nested the Navbar inside it.
 
+📌Day2-28/07/2025: 
+
+✅ Assets Management: Updated the assets.js file to include the required images and icons for the About Us section.
+
+✅ About Us Component: Successfully created the About Us component and integrated the updated assets.
+
 📸 Preview:
 coming soon...
 
