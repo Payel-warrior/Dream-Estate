@@ -1,15 +1,27 @@
 import React from 'react'
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
+import Properties from './components/Properties.jsx';
+import Layout from './Layout.jsx';
+import {Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <About/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        {/* Home route with header + about shown */}
+        <Route index element={
+          <>
+            <Header />
+            <About />
+          </>
+        } />
+        <Route path="Properties" element={<Properties />} />
+      </Route>
+    </Routes>
   )
 }
 
 export default App
+
 
