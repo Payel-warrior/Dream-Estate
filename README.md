@@ -29,6 +29,19 @@ Progress:
 
 ✅ About Us Component: Successfully created the About Us component and integrated the updated assets.
 
+📌Day3 - 02/08/2025:
+
+✅ Assets Management: Updated assets.js with all property-related images.
+
+✅ Houses Component: Built the component with all house cards and added pagination.
+
+✅ Properties Component: Developed the header and nested the Houses component.
+
+✅ Navbar Component: Linked the Properties route using react-router-dom.
+
+✅ App.js & Main.js: Integrated routing with react-router-dom.
+
+
 📸 Preview:
 coming soon...
 
