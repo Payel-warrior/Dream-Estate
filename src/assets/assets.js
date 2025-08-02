@@ -5,6 +5,30 @@ import House4 from './House4.jpg';
 import House5 from './House5.jpg';
 import House6 from './House6.jpg';
 import House7 from './House7.jpg';
+import House8 from './house8.jpeg';
+import House9 from './house9.jpeg';
+import House10 from './house10.jpg';
+import House11 from './house11.jpg';
+import House12 from './house12.jpg';
+import House13 from './house13.jpeg';
+import House14 from './house14.jpg';
+import House15 from './house15.jpg';
+import House16 from './house16.jpg';
+import House17 from './house17.jpg';
+import House18 from './house18.jpg';
+import House19 from './house19.jpg';
+import House20 from './house20.jpg';
+import House21 from './house21.jpg';
+import House22 from './house22.jpg';
+import House23 from './house23.jpg';
+import House24 from './house24.jpg';
+import House25 from './house25.jpg';
+import House26 from './house26.jpg';
+import House27 from './house27.jpg';
+import House28 from './house28.jpg';
+import House29 from './house29.jpg';
+import House30 from './house30.jpg';
+import House31 from './house31.jpg';
 import user1 from './user1.jpeg';
 import user2 from './user2.png';
 import user3 from './user3.jpeg';
@@ -25,6 +49,30 @@ export const assets = {
     House5,
     House6,
     House7,
+    House8,
+    House9,
+    House10,
+    House11,
+    House12,
+    House13,
+    House14,
+    House15,
+    House16,
+    House17,
+    House18,
+    House19,
+    House20,
+    House21,
+    House22,
+    House23,
+    House24,
+    House25,
+    House26,
+    House27,
+    House28,
+    House29,
+    House30,
+    House31,
     user1,
     user2,
     user3,
@@ -82,6 +130,150 @@ export const projectsData = [
       location: "Dehradun",
       image: House7
     },
+    {
+    title: "Sanskriti Villa",
+    price: "$1,80,000",
+    location: "Jaipur",
+    image: House8
+  },
+  {
+    title: "Serene View Mansion",
+    price: "$2,75,000",
+    location: "Kerala",
+    image: House9
+  },
+  {
+    title: "Hillside Haven",
+    price: "$3,20,000",
+    location: "Manali",
+    image: House10
+  },
+  {
+    title: "Ocean Breeze Estate",
+    price: "$4,70,000",
+    location: "Goa",
+    image: House11
+  },
+  {
+    title: "Meadow Crest",
+    price: "$2,90,000",
+    location: "Kolkata",
+    image: House12
+  },
+  {
+    title: "Golden Hour Villa",
+    price: "$3,10,000",
+    location: "Bangalore",
+    image: House13
+  },
+  {
+    title: "Whispering Pines",
+    price: "$2,60,000",
+    location: "Shimla",
+    image: House14
+  },
+  {
+    title: "The Royal Abode",
+    price: "$5,00,000",
+    location: "Hyderabad",
+    image: House15
+  },
+  {
+    title: "Palm Grove Estate",
+    price: "$3,40,000",
+    location: "Pondicherry",
+    image: House16
+  },
+  {
+    title: "Silverline Bungalow",
+    price: "$2,30,000",
+    location: "Indore",
+    image: House17
+  },
+  {
+    title: "Lavender Valley",
+    price: "$2,80,000",
+    location: "Mysore",
+    image: House18
+  },
+  {
+    title: "Crystal Cove",
+    price: "$3,90,000",
+    location: "Singapore",
+    image: House19
+  },
+  {
+    title: "Villa Lucent",
+    price: "$3,75,000",
+    location: "Vienna",
+    image: House20
+  },
+  {
+    title: "Zenith Heights",
+    price: "$4,20,000",
+    location: "New York",
+    image: House21
+  },
+  {
+    title: "Amber Arcadia",
+    price: "$2,60,000",
+    location: "Udaipur",
+    image: House22
+  },
+  {
+    title: "Sunset Ridge Villa",
+    price: "$4,10,000",
+    location: "Los Angeles",
+    image: House23
+  },
+  {
+    title: "Mystic Lake House",
+    price: "$3,00,000",
+    location: "Nainital",
+    image: House24
+  },
+  {
+    title: "Saffron Nest",
+    price: "$2,20,000",
+    location: "Lucknow",
+    image: House25
+  },
+  {
+    title: "Evergreen Villa",
+    price: "$3,50,000",
+    location: "Chandigarh",
+    image: House26
+  },
+  {
+    title: "Skyline Retreat",
+    price: "$4,60,000",
+    location: "Toronto",
+    image: House27
+  },
+  {
+    title: "Velvet Horizon",
+    price: "$3,80,000",
+    location: "Paris",
+    image: House28
+  },
+  {
+    title: "Coral Crest",
+    price: "$2,90,000",
+    location: "Andaman Islands",
+    image: House29
+  },
+  {
+    title: "Ivory Isles",
+    price: "$4,30,000",
+    location: "Sri Lanka",
+    image: House30
+  },
+  {
+    title: "Duskview Enclave",
+    price: "$3,70,000",
+    location: "Chikmagalur",
+    image: House31
+  }
 ];
 export const reviewsData = [
     {
@@ -117,4 +309,5 @@ export const reviewsData = [
         HouseBought: "Casa Serenissima"
     }
 ];
+
 
