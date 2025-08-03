@@ -33,6 +33,10 @@ import user1 from './user1.jpeg';
 import user2 from './user2.png';
 import user3 from './user3.jpeg';
 import user4 from './user4.jpeg';
+import user5 from './user5.jpeg';
+import user6 from './user6.jpeg';
+import user7 from './user7.jpg';
+import user9 from './user9.jpg';
 import star_icon from './star_icon.svg';
 import sidebar1 from './sidebar1.ico';
 import sidebar2 from './sidebar2.ico';
@@ -77,6 +81,10 @@ export const assets = {
     user2,
     user3,
     user4,
+    user5,
+    user6,
+    user7,
+    user9,
     star_icon,
     sidebar1,
     sidebar2,
@@ -292,7 +300,7 @@ export const reviewsData = [
         alt: "Portrait of Rohan Kapoor",
         HouseBought: "Villa Harmoniae"
     },
- {
+    {
         name: "Rosali Fernandes",
         image: user3,
         text: "I had a wonderful experience with Dream Estate. The house I purchased is not only beautiful but also well-built. The attention to detail is impressive.",
@@ -307,7 +315,40 @@ export const reviewsData = [
         rating: 5,
         alt: "Portrait of Shane Williams",
         HouseBought: "Casa Serenissima"
+    },
+    {
+        name: "Lalita Ghosh",
+        image: user5,
+        text: "The entire process was seamless. I love my new home and the location is just perfect. Dream Estate made everything stress-free",
+        rating: 5,
+        alt: "Portrait of Lalita Ghosh",
+        HouseBought: "Meadow Crest"
+    },
+    {
+        name: "Venu Gopal Aiyar",
+        image: user6,
+        text: "From the first site visit to the final paperwork, the experience was smooth and professional. I genuinely felt supported at every step.",
+        rating: 4,
+        alt: "Portrait of Venu Gopal Aiyar",
+        HouseBought: "Serene View Mansion"
+    },
+    {
+        name: "Uday Singh",
+        image: user7,
+        text: "I was skeptical at first, but they proved me wrong. The home was delivered on time, and the construction quality is excellent.",
+        rating: 4,
+        alt: "Portrait of Uday Singh",
+        HouseBought: "Hillside Haven"
+    },
+    {
+        name: "Anjali Mehra",
+        image: user9,
+        text: "From the very first interaction to the handover, Dream Estate was professional and transparent. I felt taken care of throughout.",
+        rating: 5,
+        alt: "Portrait of Anjali Mehra",
+        HouseBought: "Evergreen Villa"
     }
 ];
+
 
 
