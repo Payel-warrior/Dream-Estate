@@ -41,6 +41,13 @@ Progress:
 
 ✅ App.js & Main.js: Integrated routing with react-router-dom.
 
+📌Day4 - 03/08/2025:
+
+✅ Assets Management: Added all client images to assets.js for the Reviews section.
+
+✅ Reviews Component: Built the feedback carousel using react-slick with user images, ratings, and testimonials.
+
+✅ Navbar Component: Enabled navigation to all homepage sections (About, Feedbacks) from the Properties route using programmatic scroll.
 
 📸 Preview:
 coming soon...
