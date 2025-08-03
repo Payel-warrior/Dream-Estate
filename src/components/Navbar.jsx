@@ -1,10 +1,27 @@
 import React, {useState,useEffect} from 'react';
 import { assets } from '../assets/assets';
 import { Link  } from "react-router-dom";
-
+import { useNavigate, useLocation } from 'react-router-dom';
 
 
 function Navbar() {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleScroll = (sectionId)=> {
+        if (location.path !== "/"){
+            navigate("/", {replace: false});
+            setTimeout(() => {
+                const section = document.getElementById(sectionId);
+                section?.scrollIntoView({behavior: "smooth"});
+            },100);
+
+        } else {
+            const section = document.getElementById(sectionId);
+            section?.scrollIntoView({behavior:"smooth"});
+        }
+    }
+    
     const [displaySidebar, setDisplaySidebar] = useState(false)
     useEffect(()=> {
     if(displaySidebar){
@@ -26,9 +43,9 @@ function Navbar() {
             </div>
             <ul className='hidden md:flex gap-7 text-white font-semibold text-xl'>
                 <li><Link to="/">Home</Link></li>
-                <li><a href="#About">About</a></li>
+                <li><a onClick={() => handleScroll("About")} href="#About">About</a></li>
                 <li><Link to="Properties">Properties</Link></li>
-                <li><a href="#Reviews">Feedbacks</a></li>
+                <li><a  onClick={() => handleScroll("Reviews")} href="#Reviews">Feedbacks</a></li>
             </ul>
             <button className='hidden md:block bg-emerald-600 px-6 py-1.5 rounded-md text-white font-semibold cursor-pointer hover:px-7 hover:py-2 '>Sign Up</button>
            <img onClick={()=> setDisplaySidebar(true)}src={assets.sidebar4} alt="" className='md:hidden w-15' /> 
@@ -40,9 +57,16 @@ function Navbar() {
             </div>
             <ul className='flex flex-col items-start gap-2 mt-5 px-5 text-lg font-medium'>
                 <li><Link to="/" onClick={() => setDisplaySidebar(false)}className='px-4 py-2 rounded-full inline-block'> Home </Link></li>
-                <li><a onClick={()=>setDisplaySidebar(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a></li>
+                <li><a onClick={()=>{
+                    setDisplaySidebar(false);
+                    handleScroll("About");
+                }} 
+                href="#About" className='px-4 py-2 rounded-full inline-block'>About</a></li>
                 <li> <Link to="Properties" onClick={() => setDisplaySidebar(false)}className='px-4 py-2 rounded-full inline-block'> Properties </Link> </li>
-              <li><a onClick={()=>setDisplaySidebar(false)}
+             <li><a onClick={()=>{
+                setDisplaySidebar(false);
+                handleScroll("About");
+            }}
                 href="#Reviews" className='px-4 py-2 rounded-full inline-block'>Feedbacks</a></li>
             </ul>
         </div>
@@ -52,5 +76,6 @@ function Navbar() {
 }
 
 export default Navbar
+
 
 
