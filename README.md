@@ -49,6 +49,11 @@ Progress:
 
 ✅ Navbar Component: Enabled navigation to all homepage sections (About, Feedbacks) from the Properties route using programmatic scroll.
 
+📌 Day 5 – 04/08/2025:
+
+✅ Contact Component: Created the contact section with improved layout, spacing, and responsive design using Tailwind CSS.
+
+
 📸 Preview:
 coming soon...
 
