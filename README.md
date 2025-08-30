@@ -66,8 +66,8 @@ Progress:
 ✅ UI Enhancements: Added rise-in animation for homepage heading and typewriter effect for Properties tagline.
 
 📸 Preview:
-coming soon...
+[Live Demo] (https://dream-estate-iota.vercel.app/)
 
 🤝Contribution:
 
-This is a solo learning project for now, but feel free to fork and play around. Pull requests are welcome once the project is live.
+This is a solo learning project for now, but feel free to fork and play around.
