@@ -53,6 +53,17 @@ Progress:
 
 ✅ Contact Component: Created the contact section with improved layout, spacing, and responsive design using Tailwind CSS.
 
+📌Day6 - 30/08/2025:
+
+✅ Contact Component: Integrated Web3Forms API for email handling. Improved UX by keeping user on the same page after submission, added success/error message display, and set auto-hide after 30 seconds.
+
+✅ Signup & Login Components: Built a modern, elegant signup/login UI with animations and added redirection to Home after login.
+
+✅ Page Transitions: Integrated PageWrapper with AnimatePresence from Framer Motion for smooth route-based animations.
+
+✅ Custom Animations: Applied unique animations per page — Home (fade), Properties (slide-up), Contact (zoom), SignUp (slide-right).
+
+✅ UI Enhancements: Added rise-in animation for homepage heading and typewriter effect for Properties tagline.
 
 📸 Preview:
 coming soon...
