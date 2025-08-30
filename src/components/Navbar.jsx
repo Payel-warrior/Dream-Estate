@@ -47,7 +47,7 @@ function Navbar() {
                 <li><Link to="Properties">Properties</Link></li>
                 <li><a  onClick={() => handleScroll("Reviews")} href="#Reviews">Feedbacks</a></li>
             </ul>
-            <button className='hidden md:block bg-emerald-600 px-6 py-1.5 rounded-md text-white font-semibold cursor-pointer hover:px-7 hover:py-2 '>Sign Up</button>
+              <Link to = "SignUp"><button className='hidden md:block bg-emerald-600 px-6 py-1.5 rounded-md text-white font-semibold cursor-pointer hover:px-7 hover:py-2 '>Sign Up</button></Link>
            <img onClick={()=> setDisplaySidebar(true)}src={assets.sidebar4} alt="" className='md:hidden w-15' /> 
         </div>
       {/* MobileMenu */}
@@ -76,6 +76,7 @@ function Navbar() {
 }
 
 export default Navbar
+
 
 
 
